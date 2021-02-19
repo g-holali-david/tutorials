@@ -43,7 +43,8 @@
 
 <br>
 
-* ère des micro-services : instanciation forte (applications similaires, adaptation variables, process d'information)
+* ère des micro-services : instanciation forte 
+	(applications similaires, adaptation variables, process d'information)
 		 entrée1 > processus-1 > sortie1
 		 entrée2 > processus-2 > sortie2
 		 entrée3 > processus-3 > sortie3
