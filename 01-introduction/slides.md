@@ -9,24 +9,33 @@
 
 <br>
 
-* projet CNCF
+## Projet
 
 <br>
 
-* helm = gouvernail (référence à k8s)
+		* projet CNCF
 
 <br>
 
-* supporté par : google, microsoft, bitnami, IBM...
+		* helm = gouvernail (référence à k8s)
 
 <br>
 
-* Github https://github.com/helm/helm
-* Site : https://helm.sh/
+		* supporté par : google, microsoft, bitnami, IBM...
 
 <br>
 
-* langage : GO (6000 commits / +700 dev)
+		* Github https://github.com/helm/helm
+		* Site : https://helm.sh/
+
+<br>
+
+		* langage : GO (6000 commits / +700 dev)
+
+-------------------------------------------------------------------------------------
+
+## Pourquoi ?
+
 
 <br>
 
@@ -45,12 +54,12 @@
 
 ----------------------------------------------------------------------
 
-# HELM : INTRODUCTION
+# Exemple
 
 
 <br>
 
-* exemple : wordpress
+		* exemple : wordpress
 	
 <br>
 
@@ -78,47 +87,44 @@ Rq : similarités avec le gestionnaire de paquets (dépôts, versions, cli...)
 
 ----------------------------------------------------------------------
 
-# HELM : INTRODUCTION
+## Intérêts
 
 <br>
 
-* orchestration et déploiement dans kubernetes
+		* orchestration et déploiement dans kubernetes
 
 <br>
 
-* versionning
+		* versionning
 
 <br>
 
-* dépôts de ressources cohérentes (ex: Wordpress)
-		> pvc, deployments wp, mysql, services...
+		* dépôts de ressources cohérentes (ex: Wordpress)
+			> pvc, deployments wp, mysql, services...
 
 <br>
 
-* évolution v2 à v3 :
-		* suppression du mode client/serveur (tiller)
-		* changement des commandes
-		* changements de certains fichiers (Charts.yaml)
+		* évolution v2 à v3 :
+			* suppression du mode client/serveur (tiller)
+			* changement des commandes
+			* changements de certains fichiers (Charts.yaml)
 
 <br>
 
-* fichiers au format yaml (attention extension)
+		* fichiers au format yaml (attention extension)
 
 <br>
 
-* HelmRelease = Custom Resource Definition dans k8s
+		* HelmRelease = Custom Resource Definition dans k8s
 
 <br>
 
-* augmentation de ses capacités avec la combinaison à d'autres outils (ex : flux)
+		* augmentation de ses capacités avec la combinaison à d'autres outils (ex : flux)
 
 
 ----------------------------------------------------------------------
 
-# HELM : INTRODUCTION
-
-
-EN RESUME :
+## EN RESUME
 
 <br>
 
