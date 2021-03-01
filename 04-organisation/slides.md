@@ -18,7 +18,8 @@ $HOME/.config/helm/
 ```
 
 Note : configuration des dépôts installés
-	* mis à jour `helm repo install`
+	* mis à jour `helm repo add`
+	* bitnami https://charts.bitnami.com/bitnami
 
 <br>
 
