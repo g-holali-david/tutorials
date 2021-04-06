@@ -107,13 +107,6 @@ helm search hub prometheus
 
 ```
 helm repo install <nom> <url>
-```
-
-<br>
-
-* installation d'un dépôt
-
-```
 helm repo add bitnami https://charts.bitnami.com/bitnami
 ```
 
