@@ -9,7 +9,7 @@
 
 <br>
 
-3 méthode spour déployer des charts :
+3 méthodes pour déployer des charts :
 
 		* la CLI (à éviter à tout prix)
 
@@ -151,11 +151,8 @@ spec:
 
 <br>
 
-* définition des variables par la CLI (à éviter) :
+* définition des variables par la CLI (à éviter) : cf fichier joint
 
-```
-helm install --set service.type=NodePort,ingress.enabled=true,ingress.hostname=wordpress.kub,wordpressUsername=admin,wordpressPassword=adminpassword,mariadb.mariadbRootPassword=secretpassword,mariadb.primary.persistence.existingClaim=wordpress-mysql,persistence.existingClaim=wordpress-wordpress,allowEmptyPassword=false bitnami/wordpress --generate-name
-```
 
 ---------------------------------------------------------------------------------------------------
 
