@@ -67,8 +67,9 @@ helm show readme bitnami/wordpress
 helm show values bitnami/wordpress
 helm show all bitnami/wordpress
 ```
-
 Rq : --version
+
+<br>
 
 * installation (attention toujours comprendre)
 
