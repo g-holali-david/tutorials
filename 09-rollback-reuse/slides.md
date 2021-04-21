@@ -3,9 +3,7 @@
 %Vidéos: [Helm]()
 %blog: [Xavki Blog](https://xavki.blog)
 
-
 # HELM : ROLLBACK & VALUES & STOCKAGE
-
 
 <br>
 
@@ -24,6 +22,7 @@
 ```
 helm upgrade -n wp mywp bitnami/wordpress --values values.yaml --version 10.4.6
 ```
+
 -----------------------------------------------------------------------------------------
 
 # HELM : ROLLBACK & VALUES
