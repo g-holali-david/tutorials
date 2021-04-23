@@ -71,7 +71,6 @@ helm create xavki
 * charts (non obligatoire) : 
 			* définir les charts dont dépendent notre chart
 			* construit se lon le fichier Chart.lock
-			* dependency build
 
 -----------------------------------------------------------------------------------
 
