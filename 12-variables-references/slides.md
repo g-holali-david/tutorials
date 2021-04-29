@@ -79,23 +79,48 @@ FILES
 
 	* .Files.Get "monfichier.txt" : récupérer un fichier par son nom
 
+```
+data:
+  key: {{ .Files.Get "files/xavki.txt" }}
+```
+
+<br>
+
+	* .Files.Lines "path" : pour lire un fichier ligne par ligne
+
+```
+data:
+  key: |- {{- range .Files.Lines "files/xavki.txt" }}
+    {{.}}{{- end}}
+```
+
+-----------------------------------------------------------------
+
+# HELM : VARIABLES DE REFERENCES
+
+
+<br>
+
 	* .Files.GetBytes : récupérer le contenu de fichier sous forme de bytes
 
 	* .Files.Glob : liste de fichier selon un pattern
 
 ```
-{{ .Files.Glob "files/xavk`*.txt".AsConfig}}
+data:
+  key: |- {{- range $file, $content :=.Files.Glob "files/xavki\*.txt" }}
+    {{ $file }}
+    {{- end }}
 ```
 
-	* .Files.Lines "path" : pour lire un fichier ligne par ligne
+<br>
 
-	* .Files.AsSecrets : converti le contenu en base64
+	* .Files.AsConfig : converti le contenu en base64
 
 ```
-{{ (.Files.Glob "files/xavk*.txt").AsConfig | indent 2}}
+{{ (.Files.Glob "files/xavki\*.txt").AsConfig | indent 2 }}
 ```
 
-	* .Files.AsConfig : converti en format yaml
+	* .Files.AsSecrets : converti en format yaml
 
 
 -----------------------------------------------------------------
