@@ -3,7 +3,7 @@
 %Vidéos: [Helm]()
 %blog: [Xavki Blog](https://xavki.blog)
 
-# HELM : CONDITIONS ET OPERATEURS
+# HELM : CONDITIONS 
 
 <br>
 
