@@ -44,4 +44,33 @@ Images docker :
 
 		* Api Python > Dockerfile > DockerHub
 
+----------------------------------------------------------------
 
+# HELM : TP Projet API - Préparation
+
+<br>
+
+```
+└── project
+    ├── xavki_api
+    │   ├── charts
+    │   ├── Chart.yaml
+    │   ├── templates
+    │   │   ├── deployment.yaml
+    │   │   ├── _helpers.tpl
+    │   │   ├── ingress.yaml
+    │   │   ├── secrets.yaml
+    │   │   └── service.yaml
+    │   └── values.yaml
+    └── xavki_redis
+        ├── charts
+        ├── Chart.yaml
+        ├── templates
+        │   ├── config.yaml
+        │   ├── deployment.yaml
+        │   ├── _helpers.tpl
+        │   ├── NOTES.txt
+        │   └── service.yaml
+        └── values.yaml
+    ...
+```
