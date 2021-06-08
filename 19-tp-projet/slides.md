@@ -53,7 +53,6 @@ Images docker :
 ```
 └── project
     ├── xavki_api
-    │   ├── charts
     │   ├── Chart.yaml
     │   ├── templates
     │   │   ├── deployment.yaml
@@ -63,7 +62,6 @@ Images docker :
     │   │   └── service.yaml
     │   └── values.yaml
     └── xavki_redis
-        ├── charts
         ├── Chart.yaml
         ├── templates
         │   ├── config.yaml
