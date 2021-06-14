@@ -3,7 +3,7 @@
 %Vidéos: [Helm]()
 %blog: [Xavki Blog](https://xavki.blog)
 
-# HELM : TP Projet API - Persistence Data
+# HELM : TP Projet API - Persistence Data & reload
 
 <br>
 
@@ -15,7 +15,7 @@
 
 --------------------------------------------------------------------
 
-# HELM : TP Projet API - Persistence Data
+# HELM : TP Projet API - Persistence Data & reload
 
 <br>
 
@@ -30,7 +30,7 @@ sudo exportfs -a
 
 --------------------------------------------------------------------
 
-# HELM : TP Projet API - Persistence Data
+# HELM : TP Projet API - Persistence Data & reload
 
 <br>
 
@@ -55,7 +55,7 @@ spec:
 
 --------------------------------------------------------------------
 
-# HELM : TP Projet API - Persistence Data
+# HELM : TP Projet API - Persistence Data & reload
 
 <br>
 
@@ -72,7 +72,7 @@ volumeBindingMode: WaitForFirstConsumer
 
 --------------------------------------------------------------------
 
-# HELM : TP Projet API - Persistence Data
+# HELM : TP Projet API - Persistence Data & reload
 
 <br>
 
@@ -88,7 +88,7 @@ redis_PersistentVolumeClaim:
 
 --------------------------------------------------------------------
 
-# HELM : TP Projet API - Persistence Data
+# HELM : TP Projet API - Persistence Data & reload
 
 <br>
 
@@ -112,7 +112,7 @@ spec:
 
 --------------------------------------------------------------------
 
-# HELM : TP Projet API - Persistence Data
+# HELM : TP Projet API - Persistence Data & reload
 
 <br>
 
@@ -130,4 +130,22 @@ Adaptation chart - template deployment
         {{- end }}
 ```
 
-Notes : path /data et --appendonly yes
+--------------------------------------------------------------------
+
+# HELM : TP Projet API - Persistence Data & reload
+
+
+<br>
+
+* modification de la configuration
+
+path /data et --appendonly yes
+
+<br>
+
+* reload des pods si modification
+
+```
+      annotations:
+        checksum/secret: {{ .Values.api_configfile | toString  | sha256sum }}
+```
