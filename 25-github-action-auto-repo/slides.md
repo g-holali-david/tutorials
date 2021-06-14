@@ -20,7 +20,7 @@ Chart releaser : https://github.com/helm/chart-releaser-action
 
 5- ajout d'un workflow 
 
-6- vérifiaction de action
+6- vérification de action
 
 7- ajout d'une chart fictive
 
