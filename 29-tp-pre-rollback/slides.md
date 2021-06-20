@@ -3,7 +3,7 @@
 %Vidéos: [Helm]()
 %blog: [Xavki Blog](https://xavki.blog)
 
-# HELM : HOOKS - Pre-UPgrade améliorations
+# HELM : HOOKS - Pre-Rollback - restauration
 
 <br>
 
