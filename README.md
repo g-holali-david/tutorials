@@ -3,7 +3,7 @@
 Playlist : https://www.youtube.com/playlist?list=PLn6POgpklwWqIeLqU1194K-LS1O5m2lDd
 
 - 1. [HELM - 1. INTRODUCTION : POURQUOI, COMMENT](https://www.youtube.com/watch?v=DuVxSs6ZoRA)
-- 2. [HELM - 2. CONCEPTS ET DEFINITIONS](https://www.youtube.com/watch?v=McT5uhmXTB0)
+- 2. [Concepts & Définitions - #Helm 02](https://www.youtube.com/watch?v=McT5uhmXTB0)
 - 3. [HELM - 3. INSTALLATION & AUTOCOMPLETE/ALIAS](https://www.youtube.com/watch?v=48DIOpP1SlA)
 - 4. [HELM - 4. ENVIRONNEMENT : REPERTOIRES ET VARIABLES](https://www.youtube.com/watch?v=CHyjKYcS5xg)
 - 5. [HELM - 5. DEPOTS : INSTALLATION ET PRINCIPES](https://www.youtube.com/watch?v=ZxkjztdgVzo)
@@ -20,4 +20,16 @@ Playlist : https://www.youtube.com/playlist?list=PLn6POgpklwWqIeLqU1194K-LS1O5m2
 - 16. [Instanciation démo - #HELM 16](https://www.youtube.com/watch?v=uegxJKyDT3Y)
 - 17. [Include & Helpers - #Helm 17](https://www.youtube.com/watch?v=U50gM8vDWOY)
 - 18. [Confimap & Restart de pods (Astuce) - #Helm 18](https://www.youtube.com/watch?v=7fblPnkPIss)
+- 19. [TP - Déployer une API Python - #Helm 19](https://www.youtube.com/watch?v=EKab51tcRfo)
+- 20. [TP - Code API + Dockerfile - #Helm 20](https://www.youtube.com/watch?v=ulaElg1ZSL4)
+- 21. [TP - Chart RedisInsight - #Helm 21](https://www.youtube.com/watch?v=drZgVEsarog)
+- 22. [TP - Chart Redis : création et déploiement  - #Helm 22](https://www.youtube.com/watch?v=OsOfAkpVGSU)
+- 23. [TP - Chart API Python - #Helm 23](https://www.youtube.com/watch?v=SgdChjcomdQ)
+- 24. [Créer un repository de Charts avec Github Pages - #Helm 24](https://www.youtube.com/watch?v=O0b3jedHuLY)
+- 25. [Repository automatique avec Github Action  & le Chart releaser - #Helm 25](https://www.youtube.com/watch?v=htxlJhU0D-4)
+- 26. [Tp API - Persitence : pv, pvc, reload - #Helm 26](https://www.youtube.com/watch?v=Dn-VNhpAQZU)
+- 27. [Annotations Pre et Post Hooks - #Helm 27](https://www.youtube.com/watch?v=xUGs4e-5LrU)
+- 28. [TP Hooks - Pre-Upgrade : redis backup - #Helm 28](https://www.youtube.com/watch?v=far4beKGL6s)
+- 29. [TP Hooks - Pre-Rollback : redis restauration - #Helm 29](https://www.youtube.com/watch?v=po39N77jzI0)
+- 30. [Dépendances : premiers pas - #Helm 30](https://www.youtube.com/watch?v=O45diA5Uw7k)
 
