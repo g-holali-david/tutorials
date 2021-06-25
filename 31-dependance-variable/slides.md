@@ -3,6 +3,7 @@
 %Vidéos: [Helm]()
 %blog: [Xavki Blog](https://xavki.blog)
 
+
 # HELM : Dépendances & Variables
 
 
@@ -20,6 +21,10 @@ Objectifs :
 
 		* enfants > parent
 
+-----------------------------------------------------------------------
+
+# HELM : Dépendances & Variables
+
 <br>
 
 PARENT > ENFANTS
@@ -34,6 +39,10 @@ redis_image: "redis:5.0.4"
 redis_bck: true
 ```
 
+-----------------------------------------------------------------------
+
+# HELM : Dépendances & Variables
+
 <br>
 
 * les définir dans les values Chart parent 
@@ -44,6 +53,10 @@ xavki_redis:
   redis_password: "xavier"
   redis_bck: false
 ```
+
+-----------------------------------------------------------------------
+
+# HELM : Dépendances & Variables
 
 <br>
 
@@ -61,15 +74,25 @@ kind: ConfigMap
 metadata:
   name: {{ .Release.Name }}-configmap
 data:
-  salad: {{ .Values.global.salad }}
+  maclef: {{ .Values.global.maclef }}
 ```
+
+-----------------------------------------------------------------------
+
+# HELM : Dépendances & Variables
 
 * déclaration dans un values.yaml unique
 
 ```
 global:
-  salad: "Batavia"
+  maclef: "mavaleur"
 ```
+
+-----------------------------------------------------------------------
+
+# HELM : Dépendances & Variables
+
+
 
 ENFANTS > PARENT
 
@@ -84,6 +107,10 @@ exports:
     password: "xavki"
 ```
 
+-----------------------------------------------------------------------
+
+# HELM : Dépendances & Variables
+
 <br>
 
 * values du parent
@@ -97,6 +124,10 @@ dependencies:
   - enfant
 ```
 
+-----------------------------------------------------------------------
+
+# HELM : Dépendances & Variables
+
 <br>
 
 * utilisation dans la chart parent
@@ -109,6 +140,10 @@ metadata:
 data:
   salad: {{ .Values.password }}
 ```
+
+-----------------------------------------------------------------------
+
+# HELM : Dépendances & Variables
 
 * utilisation au niveau de l'enfant
 
